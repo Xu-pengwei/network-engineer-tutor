@@ -4,7 +4,7 @@ A Chinese-language Skill for computer networking study and guided labs. [简体�
 
 ## Status
 
-V1.1.2 correction candidate. Independent acceptance testing is incomplete. This is a separate release-preparation copy, not evidence of publication or installation.
+V1.1.2 correction candidate. Independent acceptance testing is incomplete. This repository provides public preview materials, not a stable release. Public source availability does not establish successful installation or compatibility.
 
 ## Contents
 
