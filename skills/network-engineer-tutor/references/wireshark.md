@@ -38,6 +38,7 @@ tcp.port == 443
 
 192.0.2.10是文档示例地址。
 不要将显示过滤器误称为捕获过滤器。
+显示过滤器用于筛选已经捕获的报文；捕获过滤器用于控制抓包时捕获哪些报文。两者语法和作用不同，不得混用。
 
 ## ICMP分析
 检查：
@@ -49,6 +50,13 @@ Identifier、Sequence Number
 
 Echo Request为Type 8，
 Echo Reply为Type 0。
+以上Type编号适用于ICMPv4。
+
+ICMPv6：
+- Echo Request：Type 128
+- Echo Reply：Type 129
+
+分析前必须先确认报文属于IPv4还是IPv6，不得将ICMPv4的Type编号直接用于ICMPv6。
 
 ## DNS分析
 检查：
