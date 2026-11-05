@@ -1,5 +1,33 @@
 # Changelog
 
+## V1.1.2 - 核心规则补丁（已应用，待验收）
+
+状态：补丁已应用到main分支；尚未完成独立行为测试和最终验收。版本号保持V1.1.2。
+
+### 修订
+- 强化学习进度、实验验证和知识掌握三维状态的原始名称约束
+- 明确用户自述完成、部分证据和实际验证的区别
+- 强化GitHub只读检查、工作区修改、本地提交和远程推送的独立授权
+- 明确模糊指令不能扩大已有授权范围
+- 细化本地网络状态读取与主动网络查询的边界
+- 补充DHCP租约变更的网络影响和恢复检查
+- 区分ICMPv4与ICMPv6的Echo报文Type编号
+- 区分Wireshark捕获过滤器和显示过滤器
+
+### 涉及文件
+- skills/network-engineer-tutor/SKILL.md
+- skills/network-engineer-tutor/references/vmware-labs.md
+- skills/network-engineer-tutor/references/wireshark.md
+- skills/network-engineer-tutor/references/learning-progress.md
+- skills/network-engineer-tutor/references/github-learning.md
+- skills/network-engineer-tutor/CHANGELOG.md
+
+### 待验收
+- 核心状态用例
+- GitHub四阶段授权用例
+- 网络操作分类和协议说明
+- 原有教学功能回归检查
+
 ## V1.1.2 - 修正候选包
 
 状态：待审核，未安装、未进行运行测试。
