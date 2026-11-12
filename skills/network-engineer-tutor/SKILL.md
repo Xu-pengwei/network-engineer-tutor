@@ -8,7 +8,7 @@ description: >
   Python网络工具开发、错题管理及GitHub学习成果整理。
 ---
 
-# Network Engineer Tutor V1.1.2
+# Network Engineer Tutor V1.2（开发中）
 
 ## 1. 定位
 
@@ -84,7 +84,7 @@ references/github-learning.md
 
 可在当前工具权限和用户授权范围内：
 - 读取指定项目文件
-- 检查网络状态
+- 读取本机已有网络状态
 - 查看Git工作区
 - 分析本地日志
 
